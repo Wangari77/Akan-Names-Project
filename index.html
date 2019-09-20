@@ -51,46 +51,32 @@
                <h2>
                  Fill in the details below to find out your Akan name.
                </h2>
-               <h3>
-                   Gender
-               </h3>
-               <form action = "/action_page.php">
-                    <input type="checkbox" name="Male" value="Male"> Male<br>
-                    <input type="checkbox" name="Female" value="Female"> Female<br>
-                    
-                    
-                    <button type="button" onclick="alert('Congratulations!You are done with your first step!')">Click here!</button><br>
-                    <label for ="fname">First name</label><br>
-                    <input type="text" id = "fname" name = "firstname" placeholder ="Your first name"></br>
-                    <label for ="fname">Last name</label><br>
-                    <input type="text" id = "lname" name = "lastname" placeholder ="Your last name"></br>
-                    <label for ="yearofbirth">Year of Birth</label><br>
-                    <input type="numbers" id = "yearofbirth" year = "yearofbirth" placeholder ="Your birth year" maxlength ="4"></br>
-                    <label for = "months">Month of Birth</label><br>
-                    <select id = "months" name = "months">
-                        <option value ="January">1</option>
-                        <option value ="February">2</option>
-                        <option value ="March">3</option>
-                        <option value ="April">4</option>
-                        <option value ="May">5</option>
-                        <option value ="June">6</option>
-                        <option value ="July">7</option>
-                        <option value ="August">8</option>
-                        <option value ="September">9</option>
-                        <option value ="October">10</option>
-                        <option value ="November">11</option>
-                        <option value ="December">12</option>
-                    </select><br>
-                    <label for ="dayofbirth">Birthday</label><br>
-                    <input type="text" id = "dayofbirth" name = "birthday" placeholder ="Your birthday"></br>
-                           
+               <form name = "Akan Names" onsubmit="event.preventDefault();calculator()" action ="alert()">
+                <div class = "right">
+                    <h2>Gender....</h2>
+                </div>
+                    <select name = "gender" id = "gender">
+                        <option name = "male" value = "male"><b>Male</b></option>
+                        <option name = "female" value = "female"><b>Female</b></option>
                     </select>
+                <div class = "left">
+                    <h2>
+                        Date of birth....
+                    </h2>
+                </div> 
+                        <input name = "date" type = "date"><b>Date</b><br><br><br>
+                        <input type= "submit" value = "Submit"> Submit</input>
+
+
+
+
+               </form>
 
                     
 
 
 
-                </form>
+                
                 
 
 
