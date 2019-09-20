@@ -1,7 +1,24 @@
 body {
-    background-color: blueviolet;
+    background-color:grey;
 }
 
 h1 {
-    color:mediumaquamarine;
+    color:red;
+    text-decoration-line: underline;
+
+    text-decoration-color:red;
+    font-size: 40px;
+    border:
+}
+marquee>img:hover {
+    img: url ("https://upload.wikimedia.org/wikipedia/commons/3/33/Flag-map_of_Ghana.svg") no repeat;
+}
+
+h2 {
+    text-decoration-line: underline;
+    color:red;
+}
+
+p {
+    font-size: 20px;
 }
