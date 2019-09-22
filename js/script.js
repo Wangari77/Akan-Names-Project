@@ -8,7 +8,6 @@ function akanname(){
     var date = document.forms["akanNames"]["date"].value;
     var dateObject =new Date(date);
     var day = dateObject.getDay();
-    console.log("***", date, "****", dateObject, "*****", day)
 if (gender === "female") {
     name=female[day];
 }
