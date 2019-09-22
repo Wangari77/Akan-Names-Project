@@ -3,12 +3,10 @@
 #### Mwangi Phyllis Wangari.
 ## Description
 The purpose of the application is to show the user's Akan name, which is represented on the day of the week in which they were born.
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
+* Great application to find out your Akan name.
+* Application is easy to use.
+*Application is easy to understand.
 * format
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
