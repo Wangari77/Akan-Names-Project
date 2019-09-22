@@ -16,7 +16,8 @@ else if (gender==="male") {
 }
 else { console.log("invalid response")
 
-} 
+}
+document.getElementById("answer").style.display = "block";
 document.getElementById("alert").innerHTML=name;
 return name
 
