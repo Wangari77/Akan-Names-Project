@@ -20,6 +20,7 @@
 
     <div class = "container">
         <div class = "jumbotron">
+            <div class = "card submit">
             <h1>
                 Wouldn't it be interesting to know your Akan name !
             </h1>
@@ -31,23 +32,23 @@
             <p>
             This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.     
             </p>
-        
+            </div>  
         </div>
     </div>
     
     <div class = "container">
-        <div class ="card">
-           <div class =  "card title">
-               <h2>
+        <div class ="jumbotron">
+            <div class = "card submit">
+               <h2>     
                  Fill in the details below to find out your Akan name.
-               </h2>
+               </h2> 
                
             <form name="akanNames" onsubmit="event.preventDefault(); akanname()">
                 <div class = "Gender">
                     <h2>Gender</h2>
                 </div>
                     <select name="gender" id="gender">
-                        <option name="male" value="male">Male</option>
+                        <option name="male" value="male">Male<img class = "preload" src = "https://media1.tenor.com/images/4d5155a595f04a17e8434db8e1ed87d0/tenor.gif?itemid=5698523" alt ="" width ="500"></option>
                         <option name="female" value="female">Female</option>
                     </select>
                 <div class="DOB">
@@ -57,14 +58,14 @@
                     <input name="date" type="date"/>Date<br><br>
                     <input type="submit" value="Submit">
                 </div> 
-               </form>
-             </div>  
-           </div>   
+               </form>  
+            </div> 
+        </div>   
     </div>
 
     <div class="container"> 
-       <div class ="jumbotron"> 
-        <div class="card">
+       <div class ="jumbotron ""> 
+        <div class="card submit">
         <div class="answer">
                 <p>
                     Your Akan name is <span id="alert"></span>
