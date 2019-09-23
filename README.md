@@ -11,7 +11,7 @@ The purpose of the application is to show the user's Akan name, which is represe
 None yet
 ## BDD
 The application worked on should be able to provide the Akan name of the user, based on their gender and the day of the week in which he/she was born. 
-###Specifications
+### Specifications
 What should be considered for this application is:
 The day of the week.
 The day of gender of the user.
