@@ -9,6 +9,16 @@ The purpose of the application is to show the user's Akan name, which is represe
 * Application is easy to understand.
 ## Known Bugs
 None yet
+##BDD
+The application worked on should be able to provide the Akan name of the user, based on their gender and the day of the week in which he/she was born. 
+###Specifications
+What should be considered for this application is:
+The day of the week.
+The day of gender of the user.
+The Akan name of each day depending on the user's gender.
+The application only works with valid dates.
+The application uses the logic on indexes, according to the application, the first day of the week is Sunday which is index 0, therefore if the calculation produces an output of 0 on a male user, that means that the Akan name of the user should be Kwasi and for a female user the Akan name will be Akosua. 
+
 ## Technologies Used
 HTML
 CSS
